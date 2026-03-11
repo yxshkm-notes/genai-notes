@@ -1,0 +1,151 @@
+site_name: "Gen AI Notes"
+site_url: https://yxshkm-notes.github.io/genai-notes/
+repo_url: https://github.com/yxshkm-notes/genai-notes
+repo_name: GitHub
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/white-balance-sunny
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+nav:
+  - Home: index.md
+  - Foundations:
+      - What is Gen AI: Foundations/What is Gen AI.md
+      - History & Evolution: Foundations/History and Evolution.md
+      - Types of Gen AI Models: Foundations/Types of Gen AI Models.md
+      - AI vs ML vs DL vs Gen AI: Foundations/AI vs ML vs DL vs Gen AI.md
+  - Math & ML Basics:
+      - Linear Algebra: Math & ML Basics/Linear Algebra.md
+      - Probability & Statistics: Math & ML Basics/Probability and Statistics.md
+      - Calculus & Backpropagation: Math & ML Basics/Calculus and Backpropagation.md
+      - Neural Networks Basics: Math & ML Basics/Neural Networks Basics.md
+      - Optimization & Loss Functions: Math & ML Basics/Optimization and Loss Functions.md
+  - Deep Learning:
+      - CNNs: Deep Learning/CNNs.md
+      - RNNs & LSTMs: Deep Learning/RNNs and LSTMs.md
+      - Attention Mechanism: Deep Learning/Attention Mechanism.md
+      - Encoder-Decoder Architecture: Deep Learning/Encoder Decoder Architecture.md
+  - Transformers:
+      - Transformer Architecture: Transformers/Transformer Architecture.md
+      - Self-Attention: Transformers/Self Attention.md
+      - Positional Encoding: Transformers/Positional Encoding.md
+      - BERT: Transformers/BERT.md
+      - GPT Series: Transformers/GPT Series.md
+      - Vision Transformer (ViT): Transformers/Vision Transformer ViT.md
+  - Large Language Models:
+      - What are LLMs: Large Language Models/What are LLMs.md
+      - Pretraining: Large Language Models/Pretraining.md
+      - Tokenization: Large Language Models/Tokenization.md
+      - Context Window: Large Language Models/Context Window.md
+      - Scaling Laws: Large Language Models/Scaling Laws.md
+      - Emergent Abilities: Large Language Models/Emergent Abilities.md
+      - Popular LLMs: Large Language Models/Popular LLMs.md
+  - Prompt Engineering:
+      - Basic Prompting: Prompt Engineering/Basic Prompting.md
+      - Zero-Shot & Few-Shot: Prompt Engineering/Zero Shot and Few Shot.md
+      - Chain of Thought: Prompt Engineering/Chain of Thought.md
+      - Tree of Thought: Prompt Engineering/Tree of Thought.md
+      - ReAct Prompting: Prompt Engineering/ReAct Prompting.md
+      - Prompt Chaining: Prompt Engineering/Prompt Chaining.md
+      - Prompt Injection & Security: Prompt Engineering/Prompt Injection and Security.md
+  - Fine-Tuning:
+      - Why Fine-Tune: Fine-Tuning/Why Fine Tune.md
+      - Full Fine-Tuning: Fine-Tuning/Full Fine Tuning.md
+      - LoRA & QLoRA: Fine-Tuning/LoRA and QLoRA.md
+      - RLHF: Fine-Tuning/RLHF.md
+      - DPO: Fine-Tuning/DPO.md
+      - Instruction Tuning: Fine-Tuning/Instruction Tuning.md
+      - Dataset Preparation: Fine-Tuning/Dataset Preparation.md
+  - Embeddings & Vector Search:
+      - What are Embeddings: Embeddings & Vector Search/What are Embeddings.md
+      - Word2Vec & GloVe: Embeddings & Vector Search/Word2Vec and GloVe.md
+      - Sentence Embeddings: Embeddings & Vector Search/Sentence Embeddings.md
+      - Vector Databases: Embeddings & Vector Search/Vector Databases.md
+      - Similarity Search: Embeddings & Vector Search/Similarity Search.md
+      - ANN Algorithms: Embeddings & Vector Search/ANN Algorithms.md
+  - RAG:
+      - What is RAG: RAG/What is RAG.md
+      - Naive RAG: RAG/Naive RAG.md
+      - Advanced RAG: RAG/Advanced RAG.md
+      - Modular RAG: RAG/Modular RAG.md
+      - Chunking Strategies: RAG/Chunking Strategies.md
+      - Retrieval Strategies: RAG/Retrieval Strategies.md
+      - Reranking: RAG/Reranking.md
+      - RAG Evaluation: RAG/RAG Evaluation.md
+  - AI Agents:
+      - What are Agents: AI Agents/What are Agents.md
+      - Agent Architectures: AI Agents/Agent Architectures.md
+      - Tool Use & Function Calling: AI Agents/Tool Use and Function Calling.md
+      - Memory Types: AI Agents/Memory Types.md
+      - Planning & Reasoning: AI Agents/Planning and Reasoning.md
+      - Multi-Agent Systems: AI Agents/Multi Agent Systems.md
+      - Agentic Frameworks: AI Agents/Agentic Frameworks.md
+  - Frameworks & Tools:
+      - LangChain: Frameworks & Tools/LangChain.md
+      - LlamaIndex: Frameworks & Tools/LlamaIndex.md
+      - LangGraph: Frameworks & Tools/LangGraph.md
+      - HuggingFace: Frameworks & Tools/HuggingFace.md
+      - OpenAI SDK: Frameworks & Tools/OpenAI SDK.md
+      - Ollama: Frameworks & Tools/Ollama.md
+  - Multimodal AI:
+      - Text to Image: Multimodal AI/Text to Image.md
+      - Image to Text: Multimodal AI/Image to Text.md
+      - Text to Audio: Multimodal AI/Text to Audio.md
+      - Text to Video: Multimodal AI/Text to Video.md
+      - Vision Language Models: Multimodal AI/Vision Language Models.md
+      - Speech Models: Multimodal AI/Speech Models.md
+  - Diffusion Models:
+      - What are Diffusion Models: Diffusion Models/What are Diffusion Models.md
+      - DDPM: Diffusion Models/DDPM.md
+      - Stable Diffusion Architecture: Diffusion Models/Stable Diffusion Architecture.md
+      - Guidance & Conditioning: Diffusion Models/Guidance and Conditioning.md
+      - ControlNet & LoRA: Diffusion Models/ControlNet and LoRA.md
+  - Evaluation & Benchmarks:
+      - LLM Evaluation Metrics: Evaluation & Benchmarks/LLM Evaluation Metrics.md
+      - RAG Evaluation: Evaluation & Benchmarks/RAG Evaluation.md
+      - Benchmarks: Evaluation & Benchmarks/Benchmarks.md
+      - Hallucination Detection: Evaluation & Benchmarks/Hallucination Detection.md
+      - Human Eval vs Auto Eval: Evaluation & Benchmarks/Human Eval vs Auto Eval.md
+  - Deployment & MLOps:
+      - Model Serving: Deployment & MLOps/Model Serving.md
+      - Quantization: Deployment & MLOps/Quantization.md
+      - Distillation: Deployment & MLOps/Distillation.md
+      - Inference Optimization: Deployment & MLOps/Inference Optimization.md
+      - LLMOps: Deployment & MLOps/LLMOps.md
+      - Monitoring LLMs: Deployment & MLOps/Monitoring LLMs.md
+  - Safety & Alignment:
+      - AI Alignment: Safety & Alignment/AI Alignment.md
+      - Hallucinations: Safety & Alignment/Hallucinations.md
+      - Bias & Fairness: Safety & Alignment/Bias and Fairness.md
+      - Red Teaming: Safety & Alignment/Red Teaming.md
+      - Guardrails: Safety & Alignment/Guardrails.md
+      - Responsible AI: Safety & Alignment/Responsible AI.md
+  - Use Cases:
+      - Chatbots & Assistants: Use Cases/Chatbots and Assistants.md
+      - Code Generation: Use Cases/Code Generation.md
+      - Summarization: Use Cases/Summarization.md
+      - Question Answering: Use Cases/Question Answering.md
+      - Content Generation: Use Cases/Content Generation.md
+      - Enterprise Gen AI: Use Cases/Enterprise Gen AI.md
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - toc:
+      permalink: true
